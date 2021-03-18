@@ -22,8 +22,13 @@ public class Student {
 		for (int j = 0; j <row.getPhysicalNumberOfCells(); j++) {
 			Cell cell = row.getCell(j);
 			System.out.println(cell);
+			Sheet sheet1 = w.getSheet("Sheet1");
+			Row row2 = sheet1.getRow(3);
+			Cell cell2 = row.getCell(3);
+			System.out.println(cell2);
 			
 		}
+		
 	}
 	
 	}
